@@ -62,15 +62,22 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Creations\Positions.sql" />
-    <Build Include="Creations\Surnames.sql" />
     <Build Include="Creations\Employees.sql" />
     <Build Include="Creations\Departments.sql" />
+    <Build Include="Creations\Orders.sql" />
+    <Build Include="Creations\EmployeesOrdersForeignKey.sql" />
+    <Build Include="Creations\Percents.sql" />
+    <Build Include="Creations\DepartmentsPositionsForeignKey.sql" />
+    <Build Include="Creations\Ranks.sql" />
+    <Build Include="Creations\QCategoriesTypes.sql" />
+    <Build Include="Creations\QCategoriesPositions.sql" />
+    <Build Include="Creations\Qualifications.sql" />
+    <Build Include="Creations\QualificationsQCategoriesPositionsForeignKey.sql" />
+    <Build Include="Creations\QualificationsQCategoriesTypesForeignKey.sql" />
+    <Build Include="Creations\EmployeesQualificationsForeignKey.sql" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Creations\EmployeesNamesForeignKey.sql" />
     <Build Include="Creations\EmployeesPositionsForeignKey.sql" />
-    <Build Include="Creations\EmployeesSurnamesForeignKey.sql" />
-    <Build Include="Creations\Names.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SACDBSQL.refactorlog" />
