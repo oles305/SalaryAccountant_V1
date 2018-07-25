@@ -5,9 +5,9 @@
     [Surname] NVARCHAR(50) NULL DEFAULT 1, 
     [PositionsId] INT NULL DEFAULT 1, 
     [IndividualCode] NCHAR(10) NULL DEFAULT N'Not set', 
-    [DateOfHiring] DATE NULL, 
+    [DateOfHiring] TIMESTAMP NULL DEFAULT GETDATE(), 
     [OrderId] INT NULL DEFAULT 1, 
-    [WorkExperience] INT NULL, 
+    [WorkExperience] INT NULL DEFAULT 0, 
     [PercentId] INT NULL DEFAULT 1, 
-    [QualificationsId] INT NULL 
+    [QualificationsId] INT NULL DEFAULT 1 
 )

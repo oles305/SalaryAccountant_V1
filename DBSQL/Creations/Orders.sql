@@ -2,5 +2,5 @@
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY (1,1), 
     [Number] NVARCHAR(50) NOT NULL, 
-    [Data] DATE NULL
+    [Data] TIMESTAMP NULL
 )

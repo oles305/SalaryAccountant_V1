@@ -4,6 +4,6 @@
     [Number] INT NOT NULL , 
     [CategorieTypeId] INT NOT NULL, 
     [CategoriePositionId] INT NOT NULL, 
-    [From] DATE NOT NULL, 
-    [To] DATE NOT NULL
+    [From] TIMESTAMP NOT NULL, 
+    [To] TIMESTAMP NOT NULL
 )
